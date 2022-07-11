@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:wght@100&display=swap');
+
+:root {
+  --yellow: #fbc94a;
+}
+
+* {
+  margin: 0;
+  background-image: url('assets/black-leather.jpeg');
+}
+
+body {
+  margin: 3em auto;
+  width: 100%;
+  max-width: 700px;
+}
+
+header,
+h1,
+h2,
+.title,
+.drinks,
+.price {
+  font-family: 'Carter One', sans-serif;
+}
+
+header h1 {
+  font-size: 6em;
+  height: 140px;
+}
+
+header h2 {
+  font-size: 1.5em;
+}
+
+header h1,
+.description .details {
+  color: white;
+}
+
+header h2,
+.title,
+.price {
+  color: var(--yellow);
+}
+
+header {
+  text-align: center;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details {
+  max-width: 550px;
+}
+
+.drinks {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.drinks .title {
+  display: flex;
+  align-items: center;
+}
+
+.drinks .description {
+  font-size: 0.8em;
+  width: 350px;
+}
+
+.item {
+  font-size: 1.5em;
+  margin-top: 1em;
+}
